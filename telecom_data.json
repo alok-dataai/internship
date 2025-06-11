@@ -1,0 +1,1796 @@
+[
+  {
+    "customer_id": "CUST100000",
+    "personal_info": {
+      "first_name": "Danielle",
+      "last_name": "Johnson",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "danielle.johnson@example.com",
+      "phone": "3321819600",
+      "address": {
+        "street": "386 Shane Harbors",
+        "city": "Port Lindachester",
+        "state": "KY",
+        "zip_code": "20880",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200000",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 1.73,
+      "call_minutes_used": 150,
+      "sms_sent": 62
+    },
+    "billing": {
+      "billing_id": "BILL20250000",
+      "billing_period": "2023-12-22",
+      "total_amount": 18.46,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7686579303",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1119540831",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3000",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:16:43Z"
+  },
+  {
+    "customer_id": "CUST100001",
+    "personal_info": {
+      "first_name": "Jason",
+      "last_name": "Gallagher",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "jason.gallagher@example.com",
+      "phone": "1615594078",
+      "address": {
+        "street": "959 Janet Cape Apt. 413",
+        "city": "South Joshuastad",
+        "state": "MN",
+        "zip_code": "47067",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200001",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 22.36,
+      "call_minutes_used": 356,
+      "sms_sent": 189
+    },
+    "billing": {
+      "billing_id": "BILL20250001",
+      "billing_period": "2023-12-22",
+      "total_amount": 80.32,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7239670711",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1149827706",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3001",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:17:43Z"
+  },
+  {
+    "customer_id": "CUST100002",
+    "personal_info": {
+      "first_name": "Jason",
+      "last_name": "Adams",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "jason.adams@example.com",
+      "phone": "9283276483",
+      "address": {
+        "street": "6413 Lewis Parks",
+        "city": "Wilkersonmouth",
+        "state": "KS",
+        "zip_code": "18802",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200002",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 3.52,
+      "call_minutes_used": 226,
+      "sms_sent": 8
+    },
+    "billing": {
+      "billing_id": "BILL20250002",
+      "billing_period": "2023-12-22",
+      "total_amount": 29.64,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7957970516",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1585582861",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3002",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:18:43Z"
+  },
+  {
+    "customer_id": "CUST100003",
+    "personal_info": {
+      "first_name": "John",
+      "last_name": "Hoffman",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "john.hoffman@example.com",
+      "phone": "9696532871",
+      "address": {
+        "street": "691 James Mountain",
+        "city": "Tashatown",
+        "state": "VA",
+        "zip_code": "15515",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200003",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 7.34,
+      "call_minutes_used": 268,
+      "sms_sent": 154
+    },
+    "billing": {
+      "billing_id": "BILL20250003",
+      "billing_period": "2023-12-22",
+      "total_amount": 41.48,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7031994523",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1100604502",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3003",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:19:43Z"
+  },
+  {
+    "customer_id": "CUST100004",
+    "personal_info": {
+      "first_name": "Erin",
+      "last_name": "Herrera",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "erin.herrera@example.com",
+      "phone": "5146270482",
+      "address": {
+        "street": "52880 Burns Creek",
+        "city": "Natashaport",
+        "state": "AR",
+        "zip_code": "32072",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200004",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 6.77,
+      "call_minutes_used": 342,
+      "sms_sent": 179
+    },
+    "billing": {
+      "billing_id": "BILL20250004",
+      "billing_period": "2023-12-22",
+      "total_amount": 47.74,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7028492780",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1602632297",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3004",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:20:43Z"
+  },
+  {
+    "customer_id": "CUST100005",
+    "personal_info": {
+      "first_name": "Natalie",
+      "last_name": "Arroyo",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "natalie.arroyo@example.com",
+      "phone": "7182278248",
+      "address": {
+        "street": "465 Lam Mission",
+        "city": "East Jeffreymouth",
+        "state": "OR",
+        "zip_code": "73104",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200005",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 7.39,
+      "call_minutes_used": 311,
+      "sms_sent": 71
+    },
+    "billing": {
+      "billing_id": "BILL20250005",
+      "billing_period": "2023-12-22",
+      "total_amount": 45.88,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7585126461",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1450455977",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3005",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:21:43Z"
+  },
+  {
+    "customer_id": "CUST100006",
+    "personal_info": {
+      "first_name": "Jerry",
+      "last_name": "Robinson",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "jerry.robinson@example.com",
+      "phone": "0310518347",
+      "address": {
+        "street": "76311 Gomez Loop Suite 010",
+        "city": "Chandlerville",
+        "state": "ID",
+        "zip_code": "25432",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200006",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 1.19,
+      "call_minutes_used": 422,
+      "sms_sent": 40
+    },
+    "billing": {
+      "billing_id": "BILL20250006",
+      "billing_period": "2023-12-22",
+      "total_amount": 44.58,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7869119330",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1933404114",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3006",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:22:43Z"
+  },
+  {
+    "customer_id": "CUST100007",
+    "personal_info": {
+      "first_name": "Amanda",
+      "last_name": "Taylor",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "amanda.taylor@example.com",
+      "phone": "4731781080",
+      "address": {
+        "street": "7360 Nicholas Loaf Suite 746",
+        "city": "Mooreport",
+        "state": "AR",
+        "zip_code": "76415",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200007",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 10.87,
+      "call_minutes_used": 89,
+      "sms_sent": 55
+    },
+    "billing": {
+      "billing_id": "BILL20250007",
+      "billing_period": "2023-12-22",
+      "total_amount": 30.64,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7749621470",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1453778756",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3007",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:23:43Z"
+  },
+  {
+    "customer_id": "CUST100008",
+    "personal_info": {
+      "first_name": "Jill",
+      "last_name": "Brown",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "jill.brown@example.com",
+      "phone": "0097882081",
+      "address": {
+        "street": "361 Beth Canyon",
+        "city": "South Dianeshire",
+        "state": "MD",
+        "zip_code": "34680",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200008",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 3.96,
+      "call_minutes_used": 204,
+      "sms_sent": 24
+    },
+    "billing": {
+      "billing_id": "BILL20250008",
+      "billing_period": "2023-12-22",
+      "total_amount": 28.32,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7819795579",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1361415646",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3008",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:24:43Z"
+  },
+  {
+    "customer_id": "CUST100009",
+    "personal_info": {
+      "first_name": "James",
+      "last_name": "Moran",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "james.moran@example.com",
+      "phone": "4624751079",
+      "address": {
+        "street": "425 Natasha Land",
+        "city": "Ericside",
+        "state": "ME",
+        "zip_code": "80674",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200009",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 10.97,
+      "call_minutes_used": 145,
+      "sms_sent": 11
+    },
+    "billing": {
+      "billing_id": "BILL20250009",
+      "billing_period": "2023-12-22",
+      "total_amount": 36.44,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7385451171",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1909990148",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3009",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:25:43Z"
+  },
+  {
+    "customer_id": "CUST100010",
+    "personal_info": {
+      "first_name": "Tonya",
+      "last_name": "Roman",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "tonya.roman@example.com",
+      "phone": "8412411824",
+      "address": {
+        "street": "48740 Cynthia Village Suite 005",
+        "city": "Lake Tina",
+        "state": "WA",
+        "zip_code": "58413",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200010",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 16.55,
+      "call_minutes_used": 482,
+      "sms_sent": 96
+    },
+    "billing": {
+      "billing_id": "BILL20250010",
+      "billing_period": "2023-12-22",
+      "total_amount": 81.3,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7783543540",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1493303705",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3010",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:26:43Z"
+  },
+  {
+    "customer_id": "CUST100011",
+    "personal_info": {
+      "first_name": "Andrea",
+      "last_name": "Patterson",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "andrea.patterson@example.com",
+      "phone": "1128059826",
+      "address": {
+        "street": "53315 Dickson Summit Apt. 322",
+        "city": "Johnsonmouth",
+        "state": "MT",
+        "zip_code": "88307",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200011",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 9.5,
+      "call_minutes_used": 331,
+      "sms_sent": 158
+    },
+    "billing": {
+      "billing_id": "BILL20250011",
+      "billing_period": "2023-12-22",
+      "total_amount": 52.1,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7084611066",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1592749116",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3011",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:27:43Z"
+  },
+  {
+    "customer_id": "CUST100012",
+    "personal_info": {
+      "first_name": "Michelle",
+      "last_name": "Cochran",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "michelle.cochran@example.com",
+      "phone": "2160733754",
+      "address": {
+        "street": "5414 May Locks",
+        "city": "Sheilaville",
+        "state": "KS",
+        "zip_code": "23906",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200012",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 11.49,
+      "call_minutes_used": 108,
+      "sms_sent": 180
+    },
+    "billing": {
+      "billing_id": "BILL20250012",
+      "billing_period": "2023-12-22",
+      "total_amount": 33.78,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7950746571",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1925250736",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3012",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:28:43Z"
+  },
+  {
+    "customer_id": "CUST100013",
+    "personal_info": {
+      "first_name": "Beverly",
+      "last_name": "Terrell",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "beverly.terrell@example.com",
+      "phone": "1965569816",
+      "address": {
+        "street": "608 Michael Cliff",
+        "city": "Cindyville",
+        "state": "ME",
+        "zip_code": "66970",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200013",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 20.18,
+      "call_minutes_used": 405,
+      "sms_sent": 74
+    },
+    "billing": {
+      "billing_id": "BILL20250013",
+      "billing_period": "2023-12-22",
+      "total_amount": 80.86,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7074684276",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1049203558",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3013",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:29:43Z"
+  },
+  {
+    "customer_id": "CUST100014",
+    "personal_info": {
+      "first_name": "Kyle",
+      "last_name": "Ortiz",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "kyle.ortiz@example.com",
+      "phone": "4823662994",
+      "address": {
+        "street": "3699 Marshall Mills Apt. 872",
+        "city": "West Zacharymouth",
+        "state": "WV",
+        "zip_code": "31285",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200014",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 7.75,
+      "call_minutes_used": 61,
+      "sms_sent": 97
+    },
+    "billing": {
+      "billing_id": "BILL20250014",
+      "billing_period": "2023-12-22",
+      "total_amount": 21.6,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7085675980",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1918390409",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3014",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:30:43Z"
+  },
+  {
+    "customer_id": "CUST100015",
+    "personal_info": {
+      "first_name": "Emily",
+      "last_name": "Walker",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "emily.walker@example.com",
+      "phone": "2003791769",
+      "address": {
+        "street": "20163 Linda Square Suite 083",
+        "city": "South Dennismouth",
+        "state": "NC",
+        "zip_code": "73760",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200015",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 19.43,
+      "call_minutes_used": 196,
+      "sms_sent": 41
+    },
+    "billing": {
+      "billing_id": "BILL20250015",
+      "billing_period": "2023-12-22",
+      "total_amount": 58.46,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7298471886",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1486845604",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3015",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:31:43Z"
+  },
+  {
+    "customer_id": "CUST100016",
+    "personal_info": {
+      "first_name": "Caitlin",
+      "last_name": "Dodson",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "caitlin.dodson@example.com",
+      "phone": "9868727743",
+      "address": {
+        "street": "7143 Rogers Plains",
+        "city": "East Edwardfurt",
+        "state": "FL",
+        "zip_code": "93092",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200016",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 7.08,
+      "call_minutes_used": 146,
+      "sms_sent": 179
+    },
+    "billing": {
+      "billing_id": "BILL20250016",
+      "billing_period": "2023-12-22",
+      "total_amount": 28.76,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7397478786",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1381469012",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3016",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:32:43Z"
+  },
+  {
+    "customer_id": "CUST100017",
+    "personal_info": {
+      "first_name": "Jason",
+      "last_name": "Perry",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "jason.perry@example.com",
+      "phone": "8760366909",
+      "address": {
+        "street": "6688 Tracy Groves Suite 706",
+        "city": "Elizabethfurt",
+        "state": "GA",
+        "zip_code": "61762",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200017",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 3.07,
+      "call_minutes_used": 335,
+      "sms_sent": 43
+    },
+    "billing": {
+      "billing_id": "BILL20250017",
+      "billing_period": "2023-12-22",
+      "total_amount": 39.64,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7733953718",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1695822698",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3017",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:33:43Z"
+  },
+  {
+    "customer_id": "CUST100018",
+    "personal_info": {
+      "first_name": "Samantha",
+      "last_name": "Hooper",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "samantha.hooper@example.com",
+      "phone": "6990162720",
+      "address": {
+        "street": "5564 King Common",
+        "city": "Smithside",
+        "state": "MI",
+        "zip_code": "29890",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200018",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 8.1,
+      "call_minutes_used": 246,
+      "sms_sent": 97
+    },
+    "billing": {
+      "billing_id": "BILL20250018",
+      "billing_period": "2023-12-22",
+      "total_amount": 40.8,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7573528321",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1782893941",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3018",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:34:43Z"
+  },
+  {
+    "customer_id": "CUST100019",
+    "personal_info": {
+      "first_name": "Debra",
+      "last_name": "Harrington",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "debra.harrington@example.com",
+      "phone": "0330923271",
+      "address": {
+        "street": "2991 Tami Coves Apt. 496",
+        "city": "Davidborough",
+        "state": "OR",
+        "zip_code": "91021",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200019",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 19.56,
+      "call_minutes_used": 295,
+      "sms_sent": 56
+    },
+    "billing": {
+      "billing_id": "BILL20250019",
+      "billing_period": "2023-12-22",
+      "total_amount": 68.62,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7289854268",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1993631208",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3019",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:35:43Z"
+  },
+  {
+    "customer_id": "CUST100020",
+    "personal_info": {
+      "first_name": "Maria",
+      "last_name": "Sanchez",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "maria.sanchez@example.com",
+      "phone": "9190586518",
+      "address": {
+        "street": "65726 Jessica Run Suite 987",
+        "city": "Grahamshire",
+        "state": "MD",
+        "zip_code": "32678",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200020",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 25.44,
+      "call_minutes_used": 407,
+      "sms_sent": 14
+    },
+    "billing": {
+      "billing_id": "BILL20250020",
+      "billing_period": "2023-12-22",
+      "total_amount": 91.58,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7735098955",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1348195935",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3020",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:36:43Z"
+  },
+  {
+    "customer_id": "CUST100021",
+    "personal_info": {
+      "first_name": "Mariah",
+      "last_name": "Miller",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "mariah.miller@example.com",
+      "phone": "3799650752",
+      "address": {
+        "street": "4948 Zachary Field Apt. 367",
+        "city": "Lake Thomas",
+        "state": "NM",
+        "zip_code": "59244",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200021",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 1.93,
+      "call_minutes_used": 171,
+      "sms_sent": 102
+    },
+    "billing": {
+      "billing_id": "BILL20250021",
+      "billing_period": "2023-12-22",
+      "total_amount": 20.96,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7245938494",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1882403818",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3021",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:37:43Z"
+  },
+  {
+    "customer_id": "CUST100022",
+    "personal_info": {
+      "first_name": "Laura",
+      "last_name": "Davis",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "laura.davis@example.com",
+      "phone": "6349578856",
+      "address": {
+        "street": "4431 Leslie Summit Apt. 337",
+        "city": "Jennyhaven",
+        "state": "LA",
+        "zip_code": "13677",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200022",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 7.12,
+      "call_minutes_used": 492,
+      "sms_sent": 145
+    },
+    "billing": {
+      "billing_id": "BILL20250022",
+      "billing_period": "2023-12-22",
+      "total_amount": 63.44,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7287484583",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1071069472",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3022",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:38:43Z"
+  },
+  {
+    "customer_id": "CUST100023",
+    "personal_info": {
+      "first_name": "Marissa",
+      "last_name": "Phillips",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "marissa.phillips@example.com",
+      "phone": "2408240084",
+      "address": {
+        "street": "477 Peterson Center",
+        "city": "Shelleyfort",
+        "state": "CA",
+        "zip_code": "53022",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200023",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 10.13,
+      "call_minutes_used": 345,
+      "sms_sent": 127
+    },
+    "billing": {
+      "billing_id": "BILL20250023",
+      "billing_period": "2023-12-22",
+      "total_amount": 54.76,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7940992571",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1770854579",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3023",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:39:43Z"
+  },
+  {
+    "customer_id": "CUST100024",
+    "personal_info": {
+      "first_name": "Travis",
+      "last_name": "Ray",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "travis.ray@example.com",
+      "phone": "2294131869",
+      "address": {
+        "street": "7496 Carroll Circle Apt. 334",
+        "city": "East Johnside",
+        "state": "GA",
+        "zip_code": "00851",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200024",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 27.52,
+      "call_minutes_used": 244,
+      "sms_sent": 36
+    },
+    "billing": {
+      "billing_id": "BILL20250024",
+      "billing_period": "2023-12-22",
+      "total_amount": 79.44,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7424806516",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1949921299",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3024",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:40:43Z"
+  },
+  {
+    "customer_id": "CUST100025",
+    "personal_info": {
+      "first_name": "Ricky",
+      "last_name": "Norris",
+      "date_of_birth": "1971-12-01",
+      "gender": "Male",
+      "email": "ricky.norris@example.com",
+      "phone": "4034471349",
+      "address": {
+        "street": "242 Brian Turnpike",
+        "city": "Brookeshire",
+        "state": "LA",
+        "zip_code": "58061",
+        "country": "USA"
+      }
+    },
+    "account_info": {
+      "account_id": "ACC200025",
+      "status": "Active",
+      "start_date": "2023-05-23",
+      "plan_id": "PLAN_BASIC",
+      "balance": 37.08,
+      "last_payment_date": "2024-12-18"
+    },
+    "plan_details": {
+      "plan_id": "PLAN_BASIC",
+      "name": "Basic",
+      "type": "Prepaid",
+      "price_per_month": 20.0,
+      "data_limit_gb": 5,
+      "call_minutes": 200,
+      "sms_limit": 100
+    },
+    "usage": {
+      "period": "2023-12-22",
+      "data_used_gb": 8.15,
+      "call_minutes_used": 297,
+      "sms_sent": 137
+    },
+    "billing": {
+      "billing_id": "BILL20250025",
+      "billing_period": "2023-12-22",
+      "total_amount": 46.0,
+      "due_date": "2024-01-11",
+      "payment_status": "Overdue",
+      "payment_method": "Credit Card"
+    },
+    "devices": [
+      {
+        "device_id": "IMEI7284412919",
+        "brand": "Apple",
+        "model": "Model 1",
+        "sim_number": "SIM1149926919",
+        "status": "Active"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TCKT3025",
+        "issue_type": "Call Quality",
+        "description": "Not receiving verification SMS.",
+        "status": "Open",
+        "created_at": "2023-12-22",
+        "resolved_at": "2023-12-31"
+      }
+    ],
+    "created_at": "2025-02-17T13:41:43Z"
+  }
+]

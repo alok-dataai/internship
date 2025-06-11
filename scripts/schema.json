@@ -1,0 +1,94 @@
+{
+    "customers_changes": [
+        {"name": "customer_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "first_name", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "last_name", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "date_of_birth", "type": "DATE", "mode": "NULLABLE"},
+        {"name": "gender", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "email", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "phone", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "record_timestamp", "type": "TIMESTAMP", "mode": "NULLABLE"},
+        {"name": "mod_type", "type": "STRING", "mode": "NULLABLE"}
+    ],
+    "address_changes": [
+        {"name": "address_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "customer_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "street", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "city", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "state", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "postal_code", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "country", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "record_timestamp", "type": "TIMESTAMP", "mode": "NULLABLE"},
+        {"name": "mod_type", "type": "STRING", "mode": "NULLABLE"}
+    ],
+    "plans_changes": [
+        {"name": "customer_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "account_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "plan_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "plan_name", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "plan_type", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "price_per_month", "type": "FLOAT64", "mode": "NULLABLE"},
+        {"name": "data_limit_gb", "type": "INT64", "mode": "NULLABLE"},
+        {"name": "call_minutes", "type": "INT64", "mode": "NULLABLE"},
+        {"name": "sms_limit", "type": "INT64", "mode": "NULLABLE"},
+        {"name": "record_timestamp", "type": "TIMESTAMP", "mode": "NULLABLE"},
+        {"name": "mod_type", "type": "STRING", "mode": "NULLABLE"}
+    ],
+    "accounts_changes": [
+        {"name": "account_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "customer_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "status", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "start_date", "type": "DATE", "mode": "NULLABLE"},
+        {"name": "balance", "type": "FLOAT64", "mode": "NULLABLE"},
+        {"name": "last_payment_date", "type": "DATE", "mode": "NULLABLE"},
+        {"name": "record_timestamp", "type": "TIMESTAMP", "mode": "NULLABLE"},
+        {"name": "mod_type", "type": "STRING", "mode": "NULLABLE"}
+    ],
+    "usage_changes": [
+        {"name": "customer_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "account_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "plan_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "period", "type": "DATE", "mode": "REQUIRED"},
+        {"name": "data_used_gb", "type": "FLOAT64", "mode": "NULLABLE"},
+        {"name": "call_minutes_spent", "type": "INT64", "mode": "NULLABLE"},
+        {"name": "sms_sent", "type": "INT64", "mode": "NULLABLE"},
+        {"name": "record_timestamp", "type": "TIMESTAMP", "mode": "NULLABLE"},
+        {"name": "mod_type", "type": "STRING", "mode": "NULLABLE"}
+    ],
+    "billing_changes": [
+        {"name": "customer_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "account_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "billing_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "billing_period", "type": "DATE", "mode": "NULLABLE"},
+        {"name": "total_amount", "type": "FLOAT64", "mode": "NULLABLE"},
+        {"name": "due_date", "type": "DATE", "mode": "NULLABLE"},
+        {"name": "payment_status", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "payment_method", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "record_timestamp", "type": "TIMESTAMP", "mode": "NULLABLE"},
+        {"name": "mod_type", "type": "STRING", "mode": "NULLABLE"}
+    ],
+    "devices_changes": [
+        {"name": "customer_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "account_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "device_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "brand", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "model", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "sim_number", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "status", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "record_timestamp", "type": "TIMESTAMP", "mode": "NULLABLE"},
+        {"name": "mod_type", "type": "STRING", "mode": "NULLABLE"}
+    ],
+    "tickets_changes": [
+        {"name": "customer_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "account_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "ticket_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "device_id", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "issue_type", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "description", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "status", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "created_at", "type": "DATE", "mode": "NULLABLE"},
+        {"name": "resolved_at", "type": "DATE", "mode": "NULLABLE"},
+        {"name": "record_timestamp", "type": "TIMESTAMP", "mode": "NULLABLE"},
+        {"name": "mod_type", "type": "STRING", "mode": "NULLABLE"}
+    ]
+}
