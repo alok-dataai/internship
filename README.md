@@ -20,3 +20,22 @@ This repository contains a data ingestion pipeline for telecom data in JSON form
 4. **Processing and Analyzing Data in BigQuery**  
    The streamed change data is stored in BigQuery tables for further analysis.
 
+##  Setup Instructions
+
+Follow these steps to set up and run the pipeline end-to-end:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/alok-dataai/internship.git
+```
+
+### 2. Navigate into the scripts Directory
+```bash
+cd internship/scripts
+```
+### 3. Run the Pipeline Script
+```bash
+bash run_telecom_pipeline.sh
+```
+   
