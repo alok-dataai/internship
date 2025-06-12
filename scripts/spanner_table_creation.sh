@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT_ID="playground-s-11-1a274b22"
+PROJECT_ID=$(gcloud config get-value project)
 INSTANCE_ID="spanner-instance-or"
 DATABASE_ID="telecom-db"
 

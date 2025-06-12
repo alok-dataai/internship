@@ -9,10 +9,11 @@ import json
 import logging
 import uuid
 import time
+import google.auth
 from datetime import datetime,timezone
 
 
-PROJECT_ID ="playground-s-11-1a274b22"
+_,PROJECT_ID =google.auth.default()
 INSTANCE_ID = "spanner-instance-or"
 DATABASE_ID = "telecom-db"
 TOPIC = f"projects/{PROJECT_ID}/topics/raw-telecom-data"

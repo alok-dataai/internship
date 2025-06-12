@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT_ID="playground-s-11-1a274b22"
+PROJECT_ID=$(gcloud config get-value project)
 DATASET_ID="telecom_dt"
 SCHEMA_FILE="schema.json"
 

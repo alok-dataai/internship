@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT_ID="playground-s-11-1a274b22"
+PROJECT_ID=$(gcloud config get-value project)
 
 echo "Installing  dependencies..."
 pip install --upgrade google-cloud-storage google-cloud-functions google-cloud-bigquery google-cloud-spanner apache-beam[gcp]

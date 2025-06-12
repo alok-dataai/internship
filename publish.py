@@ -1,8 +1,9 @@
 from google.cloud import pubsub_v1
 import json
 import time
+import google.auth
 
-project_id="playground-s-11-1a274b22"
+_,project_id=google.auth.default()
 topic_id="raw-telecom-data"
 publisher=pubsub_v1.PublisherClient()
 topic_path=publisher.topic_path(project_id,topic_id)

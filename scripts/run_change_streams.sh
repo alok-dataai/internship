@@ -1,4 +1,4 @@
-PROJECT_ID="playground-s-11-1a274b22"
+PROJECT_ID=$(gcloud config get-value project)
 TOPIC_NAME="raw-telecom-data"
 INSTANCE_ID="spanner-instance-or"
 CHANGE_STREAM_NAME="change_stream_telecom"
@@ -7,10 +7,6 @@ BQ_DATASET="telecom_dt"
 
 # Moving to the root directory where target file is present
 cd ..
-
-
-echo "Running Spanner Change Stream to BigQuery..."
-
 
 
 mvn clean compile
