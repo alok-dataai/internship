@@ -9,27 +9,27 @@ DATABASE_ID="telecom-db"
 BQ_DATASET="telecom_dt"
 
 
-# echo "Running setup script for dependencies..."
-# ./setup_gcp_environment.sh
+echo "Running setup script for dependencies..."
+./setup_gcp_environment.sh
 
-# echo "Creating Spanner tables..."
-# ./spanner_table_creation.sh
+echo "Creating Spanner tables..."
+./spanner_table_creation.sh
 
-# echo "Creating BigQuery tables..."
-# ./bigquery_table_creation.sh
-
-
-# echo "Creating GCS Bucket with - staging and temp"
-# gcloud storage buckets create gs://telecom-bucket-2354 \
-#   --location=us-central1 \
-#   --default-storage-class=STANDARD \
-#   --no-uniform-bucket-level-access
-# echo "staging folder" | gsutil cp - gs://telecom-bucket-2354/staging/.keep
-# echo "temp folder" | gsutil cp - gs://telecom-bucket-2354/temp/.keep
+echo "Creating BigQuery tables..."
+./bigquery_table_creation.sh
 
 
-# echo "Creating Pub/Sub topic..."
-# gcloud pubsub topics create $TOPIC_NAME
+echo "Creating GCS Bucket with - staging and temp"
+gcloud storage buckets create gs://telecom-bucket-2354 \
+  --location=us-central1 \
+  --default-storage-class=STANDARD \
+  --no-uniform-bucket-level-access
+echo "staging folder" | gsutil cp - gs://telecom-bucket-2354/staging/.keep
+echo "temp folder" | gsutil cp - gs://telecom-bucket-2354/temp/.keep
+
+
+echo "Creating Pub/Sub topic..."
+gcloud pubsub topics create $TOPIC_NAME
 
 
 cd ..
