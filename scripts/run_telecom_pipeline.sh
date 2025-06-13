@@ -2,6 +2,7 @@
 
 # Set Project Variables
 PROJECT_ID=$(gcloud config get-value project)
+BUCKET_NAME="telecom-bucket-2354"
 TOPIC_NAME="raw-telecom-data"
 INSTANCE_ID="spanner-instance-or"
 CHANGE_STREAM_NAME="change_stream_telecom"
@@ -20,12 +21,13 @@ echo "Creating BigQuery tables..."
 
 
 echo "Creating GCS Bucket with - staging and temp"
-gcloud storage buckets create gs://telecom-bucket-2354 \
+gcloud storage buckets create gs://$BUCKET_NAME \
   --location=us-central1 \
   --default-storage-class=STANDARD \
   --no-uniform-bucket-level-access
-echo "staging folder" | gsutil cp - gs://telecom-bucket-2354/staging/.keep
-echo "temp folder" | gsutil cp - gs://telecom-bucket-2354/temp/.keep
+
+echo "staging folder" | gsutil cp - gs://$BUCKET_NAME/staging/.keep
+echo "temp folder" | gsutil cp - gs://$BUCKET_NAME/temp/.keep
 
 
 echo "Creating Pub/Sub topic..."
