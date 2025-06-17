@@ -1,0 +1,130 @@
+tables:
+  - name: Customers
+    primary_key: customer_id
+    document_type: CustomerProfile
+    enabled: true
+    write_order: 1
+    fields:
+      customer_id: customer_id
+      first_name: personal_info.first_name
+      last_name: personal_info.last_name
+      date_of_birth: personal_info.date_of_birth
+      gender: personal_info.gender
+      email: personal_info.email
+      phone: personal_info.phone
+      created_at: created_at
+
+  - name: Address
+    document_type: CustomerProfile
+    primary_key: customer_id
+    write_order: 2
+    enabled: true
+    fields:
+      address_id: generate_uuid
+      customer_id: customer_id
+      street: personal_info.address.street
+      city: personal_info.address.city
+      state: personal_info.address.state
+      postal_code: personal_info.address.zip_code
+      country: personal_info.address.country
+      created_at: created_at
+
+  - name: Accounts
+    document_type: CustomerProfile
+    primary_key: customer_id
+    write_order: 3
+    enabled: true
+    fields:
+      account_id: account_info.account_id
+      customer_id: customer_id
+      status: account_info.status
+      start_date: account_info.start_date
+      balance: account_info.balance
+      last_payment_date: account_info.last_payment_date
+      created_at: created_at
+
+  - name: Plans
+    document_type: CustomerProfile
+    primary_key: customer_id
+    write_order: 4
+    enabled: true
+    fields:
+      customer_id: customer_id
+      account_id: account_info.account_id
+      plan_id: plan_details.plan_id
+      plan_name: plan_details.name
+      plan_type: plan_details.type
+      price_per_month: plan_details.price_per_month
+      data_limit_gb: plan_details.data_limit_gb
+      call_minutes: plan_details.call_minutes
+      sms_limit: plan_details.sms_limit
+      created_at: created_at
+
+  - name: Usage
+    document_type: CustomerProfile
+    primary_key: customer_id,plan_id,period
+    write_order: 5
+    enabled: true
+    fields:
+      customer_id: customer_id
+      account_id: account_info.account_id
+      plan_id: plan_details.plan_id
+      period: usage.period
+      data_used_gb: usage.data_used_gb
+      call_minutes_spent: usage.call_minutes_used
+      sms_sent: usage.sms_sent
+      created_at: created_at
+
+  - name: Billing
+    document_type: CustomerProfile
+    primary_key: billing_id
+    write_order: 6
+    enabled: true
+    fields:
+      customer_id: customer_id
+      account_id: account_info.account_id
+      billing_id: billing.billing_id
+      billing_period: billing.billing_period
+      total_amount: billing.total_amount
+      due_date: billing.due_date
+      payment_status: billing.payment_status
+      payment_method: billing.payment_method
+      created_at: created_at
+
+  - name: Devices
+    document_type: CustomerProfile
+    primary_key: device_id
+    write_order: 7
+    is_repeated: true
+    repeated_path: devices
+    enabled: true
+    fields:
+      customer_id: customer_id
+      account_id: account_info.account_id
+      device_id: devices.device_id
+      brand: devices.brand
+      model: devices.model
+      sim_number: devices.sim_number
+      status: devices.status
+      created_at: created_at
+
+  - name: Tickets
+    document_type: CustomerProfile
+    primary_key: ticket_id
+    write_order: 8
+    enabled: true
+    is_repeated: true
+    repeated_path: devices
+    fields:
+      customer_id: customer_id
+      account_id: account_info.account_id
+      ticket_id: support_tickets.ticket_id
+      issue_type: support_tickets.issue_type
+      description: support_tickets.description
+      status: support_tickets.status
+      created_at: created_at
+      resolved_at: support_tickets.resolved_at
+
+
+
+  

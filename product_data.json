@@ -1,0 +1,53 @@
+[{
+    "product": {
+      "product_id": "PROD123",
+      "product_name": "SuperPhone X",
+      "category": "Smartphones",
+      "price": 799.99,
+      "features": [
+        {
+          "feature_id": "F001",
+          "name": "OLED Display",
+          "value": "6.7 inch"
+        }
+      ],
+      "manufacturer_info": {
+        "manufacturer_id": "M001",
+        "name": "TechMakers Inc.",
+        "country": "USA"
+      }
+    },
+      "document_type": "ProductProfile",
+      "created_at": "2025-06-17T10:30:00Z"
+      
+    }
+
+  ,
+  {
+    "product": {
+      "product_id": "PROD124",
+      "product_name": "SuperPhone X",
+      "category": "Smartphones",
+      "price": 799.99,
+      "created_at": "2025-06-17T10:30:00Z",
+      "features": [
+        {
+          "feature_id": "F002",
+          "name": "OLED Display",
+          "value": "6.7 inch"
+        }
+      ],
+      "manufacturer_info": {
+        "manufacturer_id": "M002",
+        "name": "TechMakers Inc.",
+        "country": "USA"
+      }
+    },
+      "document_type": "ProductProfile",
+      "created_at": "2025-06-17T10:35:00Z"
+
+  }
+  
+  
+
+]

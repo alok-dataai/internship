@@ -1,0 +1,38 @@
+tables:
+  - name: ProductsProfile
+    document_type: ProductProfile
+    primary_key: product_id
+    enabled: true
+    write_order: 1
+    fields:
+      product_id: product.product_id
+      product_name: product.product_name
+      category: product.category
+      price: product.price
+      manufacturer_id: product.manufacturer_info.manufacturer_id
+      created_at: created_at
+
+  - name: ProductFeatures
+    document_type: ProductProfile
+    primary_key: product_id
+    enabled: true
+    is_repeated: true
+    write_order: 2
+    repeated_path: product.features
+    fields:
+      product_id: product.product_id
+      feature_id: feature_id
+      name: name
+      value: value
+      created_at: created_at
+
+  - name: Manufacturers
+    document_type: ProductProfile
+    primary_key: manufacturer_id
+    enabled: true
+    write_order: 3
+    fields:
+      manufacturer_id: product.manufacturer_info.manufacturer_id
+      name: product.manufacturer_info.name
+      country: product.manufacturer_info.country
+      created_at: created_at
