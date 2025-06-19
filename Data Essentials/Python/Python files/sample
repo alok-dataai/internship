@@ -1,0 +1,8 @@
+import sqlite3
+
+con =sqlite3.connect("sample.db")
+cur=con.cursor()
+
+cur.execute("select * from employees")
+data=cur.fetchall()
+print(data)

@@ -1,0 +1,565 @@
+What is the output of the following Python code snippet?
+
+x = [1, 2, 3]
+y = x
+y.append(4)
+print(x)
+a) [1, 2, 3]
+b) [1, 2, 3, 4]
+c) [1, 2, 4]
+d) Error
+Answer: b) [1, 2, 3, 4]
+
+Which of the following data types in Python is immutable?
+
+a) List
+b) Dictionary
+c) Tuple
+d) Set
+Answer: c) Tuple
+
+What will be the output of the following Python code snippet?
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+del my_dict['b']
+print(my_dict)
+a) {'a': 1, 'c': 3}
+b) {'a': 1, 'b': 2}
+c) {'b': 2, 'c': 3}
+d) Error
+Answer: a) {'a': 1, 'c': 3}
+
+Which data type is ordered and can contain duplicate elements in Python?
+
+a) Set
+b) Tuple
+c) List
+d) Dictionary
+Answer: c) List
+
+What is the output of the following Python code snippet?
+
+x = "Hello"
+print(x[::-1])
+a) Hello
+b) olleH
+c) elloH
+d) Error
+Answer: b) olleH
+
+Which of the following data structures in Python does not allow duplicate elements?
+
+a) List
+b) Tuple
+c) Set
+d) Dictionary
+Answer: c) Set
+
+What will be the output of the following Python code snippet?
+
+my_set = {1, 2, 3, 3, 4, 5}
+print(len(my_set))
+a) 5
+b) 6
+c) 4
+d) Error
+Answer: a) 5
+
+What is the output of the following Python code snippet?
+
+my_tuple = (1, 2, 3)
+x, y, z = my_tuple
+print(x + y + z)
+a) 5
+b) 6
+c) 7
+d) Error
+Answer: c) 6
+
+Which of the following statements is true about dictionaries in Python?
+
+a) Dictionaries are ordered collections of items
+b) Dictionary keys must be immutable
+c) Dictionaries can contain duplicate keys
+d) Dictionaries are indexed by integers
+Answer: b) Dictionary keys must be immutable
+
+What is the output of the following Python code snippet?
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+print(my_dict['d'])
+a) 0
+b) 1
+c) KeyError: 'd'
+d) None
+Answer: c) KeyError: 'd'
+
+What is the output of the following Python code snippet?
+my_lambda = lambda x: x * 2
+print(my_lambda(3))
+a) 3
+b) 6
+c) 9
+d) Error
+Answer: b) 6
+
+
+What is the output of the following Python code snippet?
+my_lambda = lambda x, y: x + y
+print(my_lambda(2, 3))
+a) 5
+b) 6
+c) 2
+d) Error
+Answer: a) 5
+
+Which of the following is a valid use case for lambda functions in Python?
+
+a) Defining complex logic functions
+b) Implementing recursive functions
+c) Passing a simple function as an argument
+d) Declaring class methods
+Answer: c) Passing a simple function as an argument
+
+What will be the output of the following Python code snippet?
+
+nums = [1, 2, 3, 4, 5]
+result = list(filter(lambda x: x % 2 == 0, nums))
+print(result)
+a) [1, 3, 5]
+b) [2, 4]
+c) [1, 2, 3, 4, 5]
+d) Error
+Answer: b) [2, 4]
+
+
+
+Which of the following statements is true about Python functions?
+
+a) Python functions must return a value
+b) Python functions cannot accept keyword arguments
+c) Python functions can have default argument values
+d) Python functions cannot be recursive
+Answer: c) Python functions can have default argument values
+
+
+Which keyword is used to define a function in Python?
+
+a) func
+b) function
+c) def
+d) define
+Answer: c) def
+
+What is the output of the following Python code snippet?
+def multiply(a, b=2):
+    return a * b
+
+result = multiply(3)
+print(result)
+a) 3
+b) 6
+c) 2
+d) Error
+Answer: b) 6
+
+Which of the following is a valid use case for lambda functions in Python?
+
+a) Defining complex logic functions
+b) Implementing recursive functions
+c) Passing a simple function as an argument
+d) Declaring class methods
+Answer: c) Passing a simple function as an argument
+
+What is the output of the following Python code snippet?
+
+
+def add(a, b):
+    return a + b
+
+result = add(3, 4)
+print(result)
+a) 3
+b) 4
+c) 7
+d) Error
+Answer: c) 7
+
+Which of the following statements is true about Python functions?
+
+a) Python functions must return a value
+b) Python functions cannot accept keyword arguments
+c) Python functions can have default argument values
+d) Python functions cannot be recursive
+Answer: c) Python functions can have default argument values
+
+What will be the output of the following Python code snippet?
+
+def greet(name):
+    print("Hello, " + name + "!")
+
+greet("Alice")
+a) "Hello, Alice!"
+b) "Alice"
+c) "Hello, !"
+d) Error
+Answer: a) "Hello, Alice!"
+
+Which keyword is used to define a function in Python?
+
+a) func
+b) function
+c) def
+d) define
+Answer: c) def
+
+
+What is the output of the following Python code snippet?
+
+import threading
+
+def print_numbers():
+    for i in range(5):
+        print(i)
+
+thread = threading.Thread(target=print_numbers)
+thread.start()
+a) 0 1 2 3 4
+b) 4 3 2 1 0
+c) 0 1 2 3
+d) Error
+Answer: a) 0 1 2 3 4
+
+Which module in Python is used for multi-threading?
+
+a) multiprocessing
+b) threading
+c) concurrent
+d) thread
+Answer: b) threading
+
+What is the purpose of the start() method in Python threads?
+
+a) Pauses the thread
+b) Resumes the thread execution
+c) Starts the thread execution
+d) Stops the thread
+Answer: c) Starts the thread execution
+
+What will be the output of the following Python code snippet?
+
+import threading
+
+def print_numbers():
+    for i in range(3):
+        print(i)
+
+thread1 = threading.Thread(target=print_numbers)
+thread2 = threading.Thread(target=print_numbers)
+
+thread1.start()
+thread2.start()
+a) 0 1 2 0 1 2
+b) 0 1 2
+c) 0 0 1 1 2 2
+d) Error
+Answer: a) 0 1 2 0 1 2
+
+Which method is used to wait for a thread to complete its execution in Python?
+
+a) stop()
+b) end()
+c) join()
+d) wait()
+Answer: c) join()
+
+Which module in Python is commonly used for database connectivity?
+
+a) pymysql
+b) sqlite3
+c) psycopg2
+d) All of the above
+Answer: d) All of the above
+
+What is the purpose of the connect() method in Python database connectivity?
+
+a) Establishes a connection to the database
+b) Executes a query on the database
+c) Retrieves data from the database
+d) Commits a transaction to the database
+Answer: a) Establishes a connection to the database
+
+
+Which of the following methods is used to execute SQL queries in Python database connectivity?
+
+a) execute_query()
+b) query()
+c) execute()
+d) run_query()
+Answer: c) execute()
+
+
+Which of the following modes is used to open a file for reading in Python?
+
+a) r
+b) w
+c) a
+d) rb
+Answer: a) r
+
+What is the purpose of the read() method in Python file handling?
+
+a) Reads a single line from the file
+b) Reads the entire contents of the file
+c) Reads a specific number of bytes from the file
+d) Reads the file in binary mode
+Answer: b) Reads the entire contents of the file
+
+Which method is used to close a file in Python?
+
+a) close()
+b) end()
+c) exit()
+d) finish()
+Answer: a) close()
+
+What is the output of the following Python code snippet?
+
+with open("example.txt", "w") as file:
+    file.write("Hello, World!")
+a) Error
+b) Hello, World!
+c) Nothing is printed
+d) None
+Answer: c) Nothing is printed
+
+Which library in Python is commonly used for numerical computing?
+
+a) pandas
+b) matplotlib
+c) NumPy
+d) SciPy
+Answer: c) NumPy
+
+What is the output of the following Python code snippet?
+
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+print(arr[2])
+a) [1, 2, 3, 4, 5]
+b) 2
+c) 3
+d) Error
+Answer: c) 3
+
+What is the purpose of the shape attribute in NumPy arrays?
+
+a) Returns the data type of the array
+b) Returns the number of dimensions of the array
+c) Returns the number of elements in the array
+d) Returns the shape of the array
+Answer: d) Returns the shape of the array
+
+What will be the output of the following Python code snippet?
+
+import numpy as np
+
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+print(arr.shape)
+a) (2, 3)
+b) (3, 2)
+c) (2, 2)
+d) Error
+Answer: a) (2, 3)
+
+Which method is used to create a NumPy array filled with zeros?
+
+a) ones()
+b) zeros()
+c) empty()
+d) fill()
+Answer: b) zeros()
+
+Which library in Python is commonly used for data manipulation and analysis?
+
+a) NumPy
+b) pandas
+c) matplotlib
+d) SciPy
+Answer: b) pandas
+
+What is the output of the following Python code snippet?
+
+import pandas as pd
+
+data = {'Name': ['Alice', 'Bob', 'Charlie'],
+        'Age': [25, 30, 35]}
+
+df = pd.DataFrame(data)
+print(df)
+a)
+
+Name	Age
+0	Alice	25
+1	Bob	30
+2	Charlie	35
+b)
+
+Name	Age
+0	Alice	25
+1	Bob	30
+2	Charlie	35
+c)
+
+Name	Age
+1	Bob	30
+2	Charlie	35
+3	Alice	25
+d) Error
+**Answer: a)
+
+Name	Age
+0	Alice	25
+1	Bob	30
+2	Charlie	35
+What is the purpose of the read_csv() function in pandas?
+
+a) Reads data from an Excel file
+b) Reads data from a JSON file
+c) Reads data from a CSV file
+d) Reads data from a database
+Answer: c) Reads data from a CSV file
+
+What will be the output of the following Python code snippet?
+
+import pandas as pd
+
+data = {'Name': ['Alice', 'Bob', 'Charlie'],
+        'Age': [25, 30, 35]}
+
+df = pd.DataFrame(data)
+print(df['Name'][1])
+a) Alice
+b) Bob
+c) Charlie
+d) Error
+Answer: b) Bob
+
+Which method is used to return the first n rows of a DataFrame in pandas?
+
+a) head()
+b) first()
+c) top()
+d) start()
+Answer: a) head()
+
+Which library in Python is commonly used for data visualization?
+
+a) NumPy
+b) pandas
+c) Matplotlib
+d) Seaborn
+Answer: c) Matplotlib
+
+What is the output of the following Python code snippet?
+
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+
+plt.plot(x, y)
+plt.show()
+a) A scatter plot
+b) A line plot
+c) A bar plot
+d) Error
+Answer: b) A line plot
+
+What is the purpose of the xlabel() function in Matplotlib?
+
+a) Sets the label for the x-axis
+b) Sets the label for the y-axis
+c) Sets the title of the plot
+d) Sets the legend for the plot
+Answer: a) Sets the label for the x-axis
+
+What will be the output of the following Python code snippet?
+
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+
+plt.scatter(x, y)
+plt.show()
+a) A line plot
+b) A scatter plot
+c) A bar plot
+d) Error
+Answer: b) A scatter plot
+
+Which function is used to save a Matplotlib plot as an image file?
+
+a) save()
+b) save_fig()
+c) savefig()
+d) export()
+Answer: c) savefig()
+
+What method is used to sort a list in Python?
+
+a) list.sort()
+b) sorted(list)
+c) list.order()
+d) sort(list)
+Answer: a) list.sort()
+
+How do you slice the given list to access the elements '89' and 'd'?
+my_list = ['10', 'b','89','d','e','20']
+a) my_list[2:4]
+b) my_list[2:5]
+c) my_list[2:3]
+d) my_list[3:5]
+Answer: d) my_list[3:5]
+
+How to insert an element at a particular index in a Python list?
+
+a) list.insert(index, element)
+b) list.add(index, element)
+c) list.append(element, index)
+d) list.put(index, element)
+Answer: a) list.insert(index, element)
+
+How many values does a Python function return if not explicitly specified?
+
+a) 0
+b) 1
+c) 2
+d) It depends on the function
+Answer: b) 1 (None)
+
+Which command is used to return the first 5 rows of a DataFrame in pandas?
+
+a) df.head(5)
+b) df.first(5)
+c) df.top(5)
+d) df.rows(5)
+Answer: a) df.head(5)
+
+Which method is used to remove duplicates from a Pandas DataFrame?
+
+a) remove_duplicates()
+b) drop_duplicates()
+c) delete_duplicates()
+d) eliminate_duplicates()
+Answer: b) drop_duplicates()
+
+Which of the following is the correct syntax for creating a DataFrame in pandas?
+
+a) df = DataFrame(data)
+b) df = pd.DataFrame(data)
+c) df = pd.Data(data)
+d) df = Dataframe(data)
+Answer: b) df = pd.DataFrame(data)
